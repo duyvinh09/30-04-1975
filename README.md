@@ -16,15 +16,16 @@ Dự án này là một preloader dành cho trang web với chủ đề kỷ ni�
 2. Thêm các tệp CSS và JavaScript từ dự án vào trang web của bạn.
 3. Chèn đoạn mã sau vào tệp HTML của bạn để kích hoạt preloader:
 
+### Cách 1: Clone về và sử dụng tệp cục bộ
 ```html
-<div id="preloader">
-    <div class="tank-animation">
-        <!-- Hình ảnh hoặc SVG của xe tăng T-54B và T-59 -->
-    </div>
-    <div class="gate-animation">
-        <!-- Hình ảnh hoặc SVG của cổng phụ Dinh Độc Lập -->
-    </div>
-</div>
+<link href="path/to/style.css" rel="stylesheet" type="text/css" />
+<script src="path/to/script.js" defer></script>
+```
+
+### Cách 2: Sử dụng CDN
+```html
+<link href="https://cdn.jsdelivr.net/gh/duyvinh09/30-04-1975/style.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/gh/duyvinh09/30-04-1975/script.js" defer></script>
 ```
 
 4. Tùy chỉnh thêm nếu cần thiết.
