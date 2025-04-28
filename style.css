@@ -143,7 +143,7 @@
 .hero .flag {
     width: 203px;
     height: 180px;
-    background-image: url(img/vn-flag-full.gif);
+    background-image: url(https://cdn.jsdelivr.net/gh/duyvinh09/30-04-1975@59c1018/img/vn-flag-full.gif);
     background-position: 50%;
     left: 48px;
     top: -30px;
@@ -314,7 +314,7 @@
     display: flex;
     position: relative;
     z-index: 2;
-    background-image: url(img/tank.webp);
+    background-image: url(https://cdn.jsdelivr.net/gh/duyvinh09/30-04-1975@59c1018/img/tank.webp);
     background-size: cover;
     overflow: hidden;
     animation: tank-simu 2s linear
@@ -335,7 +335,7 @@
     width: 45px;
     height: 45px;
     flex-shrink: 0;
-    background-image: url(img/wheel.webp);
+    background-image: url(https://cdn.jsdelivr.net/gh/duyvinh09/30-04-1975@59c1018/img/wheel.webp);
     background-size: cover;
     animation: wheel-spin 2s linear infinite
 }
@@ -349,7 +349,7 @@
     width: 240px;
     height: 180px;
     background-size: cover;
-    background-image: url(img/fence.webp);
+    background-image: url(https://cdn.jsdelivr.net/gh/duyvinh09/30-04-1975@59c1018/img/fence.webp);
     position: absolute;
     left: 100%;
     bottom: 0;
@@ -361,7 +361,7 @@
 
 .fence2 {
     animation-delay: .6s;
-    background-image: url(img/fence2.webp)
+    background-image: url(https://cdn.jsdelivr.net/gh/duyvinh09/30-04-1975@59c1018/img/fence2.webp)
 }
 
 .tank-simu .ground {
